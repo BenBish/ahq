@@ -26,7 +26,7 @@ const Header = () => {
   };
 
   return (
-    <header className="mt-5 mb-5">
+    <header className="mt-3 mb-3">
       <nav className="navbar navbar-expand-lg navbar-light">
         <div className="container">
           <img src={logo} alt="Autopilot" />

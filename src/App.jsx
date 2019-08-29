@@ -4,6 +4,7 @@ import { Global, css, jsx } from "@emotion/core";
 import "bootstrap/dist/css/bootstrap.min.css";
 
 import Header from "./components/Header/Header";
+import Subscription from "./pages/Subscription/Subscription";
 
 const App = () => {
   return (
@@ -34,7 +35,7 @@ const App = () => {
       />
       <Header />
       <div className="container">
-        <h1>Change subscription</h1>
+        <Subscription />
       </div>
     </Fragment>
   );
