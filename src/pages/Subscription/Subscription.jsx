@@ -5,6 +5,7 @@ import SubscriptionContext from "../../context/SubscriptionContext";
 import BackButton from "../../components/BackButton/BackButton";
 import Plans from "../../components/Plans/Plans";
 import AddOns from "../../components/AddOns/AddOns";
+import Summary from "../../components/Summary/Summary";
 
 const Subscription = () => {
   const [plans] = useState([
@@ -64,11 +65,13 @@ const Subscription = () => {
             setActiveAddOns
           }}
         >
-          <div className="col-xs-12 col-lg-6">
+          <div className="col-xs-12 col-lg-7">
             <Plans />
             <AddOns />
           </div>
-          <div className="col-xs-12 col-lg-6">Summary</div>
+          <div className="col-xs-12 col-lg-5">
+            <Summary />
+          </div>
         </SubscriptionContext.Provider>
       </div>
     </Fragment>
