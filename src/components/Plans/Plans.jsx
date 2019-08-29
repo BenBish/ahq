@@ -1,4 +1,4 @@
-import React, { Fragment, useContext } from "react";
+import React, { useContext } from "react";
 
 import SubscriptionContext from "../../context/SubscriptionContext";
 
@@ -10,7 +10,7 @@ const Plans = () => {
   };
 
   return (
-    <Fragment>
+    <div className="mb-5">
       <h2>Plan</h2>
       <div className="form-group">
         <select
@@ -30,7 +30,7 @@ const Plans = () => {
           Only plans you can downgrade or upgrade to are shown.
         </small>
       </div>
-    </Fragment>
+    </div>
   );
 };
 
