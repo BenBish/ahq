@@ -30,6 +30,7 @@ const App = () => {
           h3 {
             color: #1a2225;
             font-family: Karbon-SemiBold, sans-serif;
+            font-size: 24px;
           }
         `}
       />
