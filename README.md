@@ -1,3 +1,37 @@
+# AHQ
+
+Live version [AHQ](https://ahq.netlify.com)
+
+## Technical details
+
+- bootstrap
+- emotion
+- prettier
+
+## Requirements
+
+- [x] Use _Create React App_
+- [x] Good approach to styles - Used [Emotion](https://emotion.sh) - Demonstrated use of [CSS prop](https://emotion.sh/docs/css-prop) and [Styled Components](https://emotion.sh/docs/styled) - Demonstrated use of [Global styles](https://emotion.sh/docs/globals)
+- [x] es6 javascript
+- [x] Correct usage of react 16 with hooks
+- [x] An appropriate approach to state management (using react context store, all state should be stored using a context store) - Note: For more complex UI / data pieces React 16 Hook _useReducer_ could be used instead of _useState_.
+- [x] UI presented correctly to design (High attention to detail is very important). - [x] Use of correct fonts, _Karbon Semibold_, loaded in a performant way.
+- [x] When I change the dropdown menu selection, I expect the UI to reflect the selection on the right-hand side (Summary section).
+- [x] When I select the add-on checkboxes, I also expect the add-ons to be listed in the summary section.
+
+## Todo
+
+- [x] Make sure padding and margins align
+- [x] Ensure typography is correct
+- [x] Move default state for plans and add-ons into _json_ and import it
+
+## Extras
+
+- [x] Unit tests
+- [x] Ensured UI is accessible (A11y)
+
+---
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
@@ -26,43 +60,3 @@ The build is minified and the filenames include the hashes.<br>
 Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
