@@ -1,0 +1,38 @@
+{
+  "plans": [
+    {
+      "name": "Silver",
+      "description": "2,000 contacts monthly"
+    },
+    {
+      "name": "Gold",
+      "description": "5,000 contacts monthly"
+    },
+    {
+      "name": "Platinum",
+      "description": "10,000 contacts monthly"
+    },
+    {
+      "name": "Platinum+",
+      "description": "40,000 contacts monthly"
+    }
+  ],
+  "addOns": [
+    {
+      "name": "Priority support",
+      "price": "$199/month"
+    },
+    {
+      "name": "Salesforce CRM integration",
+      "price": "$199/month"
+    },
+    {
+      "name": "Custom IP",
+      "price": "$149/month"
+    },
+    {
+      "name": "Activity streams",
+      "price": "$149/month"
+    }
+  ]
+}
