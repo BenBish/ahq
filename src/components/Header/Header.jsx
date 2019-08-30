@@ -50,10 +50,10 @@ const Header = () => {
           >
             <ul className="navbar-nav">
               <NavItem>
-                <NavLink href="#">Subscription &amp; billing</NavLink>
+                <NavLink href="/">Subscription &amp; billing</NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href="#">Logout</NavLink>
+                <NavLink href="/">Logout</NavLink>
               </NavItem>
             </ul>
           </div>

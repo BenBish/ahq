@@ -1,4 +1,6 @@
-import React, { useContext } from "react";
+/** @jsx jsx */
+import { css, jsx } from "@emotion/core";
+import { useContext } from "react";
 
 import SubscriptionContext from "../../context/SubscriptionContext";
 
@@ -10,10 +12,17 @@ const Plans = () => {
   };
 
   return (
-    <div className="mb-5">
+    <div
+      css={css`
+        margin-bottom: 32px;
+      `}
+    >
       <h2>Plan</h2>
       <div className="form-group">
         <select
+          css={css`
+            font-size: 14px;
+          `}
           name="plans"
           className="custom-select"
           value={activePlan}
@@ -26,9 +35,9 @@ const Plans = () => {
             >{`${plan.name} ${plan.description}`}</option>
           ))}
         </select>
-        <small className="form-text text-muted">
+        <p className="form-text text-muted">
           Only plans you can downgrade or upgrade to are shown.
-        </small>
+        </p>
       </div>
     </div>
   );

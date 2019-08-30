@@ -6,7 +6,7 @@ const BackButton = () => {
   return (
     <a
       className="mt-3 mb-2"
-      href="#"
+      href="/"
       css={css`
         color: #1a2225;
         display: inline-block;

@@ -20,17 +20,23 @@ const App = () => {
           }
           body {
             color: #3a4347;
+            font-size: 14px;
           }
-          h1 {
+          h1,
+          h2,
+          h3 {
             color: #1a2225;
             font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
             font-weight: normal;
           }
           h2,
           h3 {
-            color: #1a2225;
             font-family: Karbon-SemiBold, sans-serif;
             font-size: 24px;
+          }
+          h3 {
+            font-size: 18px;
+            margin-bottom: 6px;
           }
         `}
       />
