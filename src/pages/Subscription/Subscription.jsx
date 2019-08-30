@@ -1,4 +1,6 @@
-import React, { Fragment, useState } from "react";
+/** @jsx jsx */
+import { css, jsx } from "@emotion/core";
+import { Fragment, useState } from "react";
 
 import SubscriptionContext from "../../context/SubscriptionContext";
 
@@ -52,7 +54,13 @@ const Subscription = () => {
   return (
     <Fragment>
       <BackButton />
-      <h1 className="mb-4">Change subscription</h1>
+      <h1
+        css={css`
+          margin-bottom: 36px;
+        `}
+      >
+        Change subscription
+      </h1>
 
       <div className="row">
         <SubscriptionContext.Provider
@@ -65,11 +73,11 @@ const Subscription = () => {
             setActiveAddOns
           }}
         >
-          <div className="col-xs-12 col-lg-7">
+          <div className="col-xs-12 col-md-7">
             <Plans />
             <AddOns />
           </div>
-          <div className="col-xs-12 col-lg-5">
+          <div className="col-xs-12 col-md-5">
             <Summary />
           </div>
         </SubscriptionContext.Provider>

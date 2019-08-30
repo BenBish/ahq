@@ -9,6 +9,7 @@ const Summary = () => {
 
   return (
     <div className="mb-5">
+      <hr className="d-md-none" />
       <h2
         css={css`
           margin-bottom: 20px;
@@ -16,26 +17,32 @@ const Summary = () => {
       >
         Summary
       </h2>
-      <h3>Plan Selected</h3>
-      <p
-        css={css`
-          margin-bottom: 18px;
-        `}
-      >
-        {activePlan}
-      </p>
+      <div className="row">
+        <div className="col-xs-12 col-sm-6 col-md-12">
+          <h3>Plan Selected</h3>
+          <p
+            css={css`
+              margin-bottom: 18px;
+            `}
+          >
+            {activePlan}
+          </p>
+        </div>
 
-      <h3>Add-ons Selected</h3>
-      {activeAddOns.map((addOn, index) => (
-        <p
-          key={index}
-          css={css`
-            margin-bottom: 6px;
-          `}
-        >
-          {addOn}
-        </p>
-      ))}
+        <div className="col-xs-12 col-sm-6 col-md-12">
+          <h3>Add-ons Selected</h3>
+          {activeAddOns.map((addOn, index) => (
+            <p
+              key={index}
+              css={css`
+                margin-bottom: 6px;
+              `}
+            >
+              {addOn}
+            </p>
+          ))}
+        </div>
+      </div>
     </div>
   );
 };

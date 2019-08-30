@@ -33,6 +33,7 @@ const App = () => {
           h3 {
             font-family: Karbon-SemiBold, sans-serif;
             font-size: 24px;
+            margin-bottom: 4px;
           }
           h3 {
             font-size: 18px;

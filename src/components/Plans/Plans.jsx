@@ -14,7 +14,7 @@ const Plans = () => {
   return (
     <div
       css={css`
-        margin-bottom: 32px;
+        margin-bottom: 35px;
       `}
     >
       <h2>Plan</h2>
@@ -22,6 +22,10 @@ const Plans = () => {
         <select
           css={css`
             font-size: 14px;
+
+            @media (min-width: 992px) {
+              width: 90%;
+            }
           `}
           name="plans"
           className="custom-select"

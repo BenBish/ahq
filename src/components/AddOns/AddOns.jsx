@@ -51,9 +51,10 @@ const AddOns = () => {
               onChange={toggleAddon}
               css={css`
                 line-height: 23px;
+                margin: 5px 0 1px;
               `}
             >
-              {addOn.name}
+              {addOn.name} - {addOn.price}
             </label>
           </div>
         ))}
