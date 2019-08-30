@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="7px" height="5px" viewBox="0 0 7 5" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 57.1 (83088) - https://sketch.com -->
+    <title>icon</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Plan" transform="translate(-533.000000, -52.000000)" fill="#637480">
+            <g id="Select-/-01-Default" transform="translate(0.000000, 36.000000)">
+                <g id="Chevron-/-Down" transform="translate(528.000000, 10.000000)">
+                    <path d="M8.50000008,10.5 C9.00000011,10.5000001 12,7.0000001 12,7.0000001 L12,6 L11,6 L8.50000008,8.5 L6,6 L5,6 L5,7.0000001 C5,7.0000001 8.00000005,10.4999999 8.50000008,10.5 Z" id="options"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

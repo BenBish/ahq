@@ -1,6 +1,7 @@
 /** @jsx jsx */
 import { css, jsx } from "@emotion/core";
 import { useContext } from "react";
+import iconDownArrow from "../../assets/icon-down-arrow.svg";
 
 import SubscriptionContext from "../../context/SubscriptionContext";
 
@@ -21,6 +22,8 @@ const Plans = () => {
       <div className="form-group">
         <select
           css={css`
+            background: url(${iconDownArrow}) no-repeat right 0.75rem center/7px
+              6px;
             font-size: 14px;
 
             @media (min-width: 992px) {

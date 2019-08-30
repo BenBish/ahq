@@ -1,6 +1,6 @@
 /** @jsx jsx */
 import { css, jsx } from "@emotion/core";
-import iconBack from "../../assets/iconBack.svg";
+import iconBack from "../../assets/icon-back.svg";
 
 const BackButton = () => {
   return (
