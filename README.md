@@ -11,24 +11,35 @@ Live version [AHQ](https://ahq.netlify.com)
 ## Requirements
 
 - [x] Use _Create React App_
-- [x] Good approach to styles - Used [Emotion](https://emotion.sh) - Demonstrated use of [CSS prop](https://emotion.sh/docs/css-prop) and [Styled Components](https://emotion.sh/docs/styled) - Demonstrated use of [Global styles](https://emotion.sh/docs/globals)
+- [x] Good approach to styles
+  - Used [Emotion](https://emotion.sh)
+    - Demonstrated use of [CSS prop](https://emotion.sh/docs/css-prop) and [Styled Components](https://emotion.sh/docs/styled)
+    - Demonstrated use of [Global styles](https://emotion.sh/docs/globals)
 - [x] es6 javascript
 - [x] Correct usage of react 16 with hooks
-- [x] An appropriate approach to state management (using react context store, all state should be stored using a context store) - Note: For more complex UI / data pieces React 16 Hook _useReducer_ could be used instead of _useState_.
-- [x] UI presented correctly to design (High attention to detail is very important). - [x] Use of correct fonts, _Karbon Semibold_, loaded in a performant way.
+- [x] An appropriate approach to state management (using react context store, all state should be stored using a context store)
+  - Note: For more complex UI / data pieces React 16 Hook _useReducer_ could be used instead of _useState_.
+- [x] UI presented correctly to design (High attention to detail is very important).
+  - [x] Use of correct fonts, _Karbon Semibold_, loaded in a performant way.
 - [x] When I change the dropdown menu selection, I expect the UI to reflect the selection on the right-hand side (Summary section).
 - [x] When I select the add-on checkboxes, I also expect the add-ons to be listed in the summary section.
-
-## Todo
-
-- [x] Make sure padding and margins align
-- [x] Ensure typography is correct
-- [x] Move default state for plans and add-ons into _json_ and import it
 
 ## Extras
 
 - [x] Unit tests
 - [x] Ensured UI is accessible (A11y)
+- [x] Added polyfills for IE11
+
+### Audits
+
+Google Lighthouse scores the SPA as follows:
+
+- 98 Performance
+- 100 Accessibility
+- 100 Best Practices
+- 100 SEO
+
+For production improvements could be made to the default Bootstrap stylesheet - a custom build could be done with the features that are in use.
 
 ---
 
