@@ -20,6 +20,9 @@ const Plans = () => {
     >
       <h2>Plan</h2>
       <div className="form-group">
+        <label className="sr-only" htmlFor="plans">
+          Plans
+        </label>
         <select
           css={css`
             background: url(${iconDownArrow}) no-repeat right 0.75rem center/7px
@@ -34,6 +37,7 @@ const Plans = () => {
           className="custom-select"
           value={activePlan}
           onChange={selectPlan}
+          id="plans"
         >
           {plans.map((plan, index) => (
             <option
