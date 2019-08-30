@@ -4,6 +4,7 @@ import styled from "@emotion/styled";
 import { Fragment, useContext } from "react";
 
 import SubscriptionContext from "../../context/SubscriptionContext";
+import { updateAddon } from "./logic";
 
 const AddOns = () => {
   const { addOns, activeAddOns, setActiveAddOns } = useContext(
@@ -18,17 +19,8 @@ const AddOns = () => {
   `;
 
   const toggleAddon = e => {
-    const addOnToToggle = e.target.value;
-    const removeAddOn = activeAddOns.includes(addOnToToggle);
-
-    if (removeAddOn) {
-      const filteredAddons = activeAddOns.filter(addOn => {
-        return addOn !== addOnToToggle;
-      });
-      setActiveAddOns([...filteredAddons]);
-    } else {
-      setActiveAddOns([...activeAddOns, addOnToToggle]);
-    }
+    const updatedAddOns = updateAddon(e.target.value, activeAddOns);
+    setActiveAddOns(updatedAddOns);
   };
 
   return (
